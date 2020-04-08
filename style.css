@@ -5,6 +5,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
 body {
     background:linear-gradient(120deg, #1db954, #191414);
 }
@@ -185,9 +188,9 @@ footer {
     border: 1px solid rgba(250, 250, 250, 0.5);
 }
 
-i, img, #sidebar_menu span, #sidebar_menu p, .album_wrap{
+/* i, img, #sidebar_menu span, #sidebar_menu p, .album_wrap{
     cursor: pointer;
-}
+} */
 @media screen and (min-width: 768px) {
     .hidden_xs {
         display: block;
@@ -283,8 +286,8 @@ i, img, #sidebar_menu span, #sidebar_menu p, .album_wrap{
     }
 
     .album_wrap {
-        width: calc(25% - 20px);
-        margin: 10px;
+        width: calc(25% - 34px);
+        margin: 17px;
     }
 
     .album_wrap p {
