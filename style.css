@@ -255,6 +255,30 @@ footer {
     main {
         height: calc(100vh - 130px);
     }
+
+    main header {
+        height: 90px;
+    }
+
+    main header i {
+        font-size: 80px;
+    }
+
+    .category h2 {
+        padding-left: 10px;
+        text-align: left;
+        font-size: 50px;
+    }
+
+    .album_wrap {
+        width: calc(25% - 20px);
+        margin: 10px;
+    }
+
+    .album_wrap p {
+        font-size: 22px;
+    }
+
     footer {
         height: 130px;
     }
