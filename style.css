@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -72,7 +73,6 @@ main header i {
 main section {
     float: left;
     width: 100%;
-    height: calc(100vh - 160px);
 }
 
 main section h2 {
@@ -114,6 +114,61 @@ main section h2 {
 }
 
 footer {
-    background-color: darkgrey;
+    background-color: #212121;
     height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.song_interaction {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    align-items: center;
+    padding-bottom: 10px;
+    color: rgba(250, 250, 250, 0.5);
+    position: relative;
+}
+
+.buttons .fa-random, .buttons .fa-undo-alt {
+    position: absolute;
+    font-size: 15px;
+}
+
+.buttons .fa-random {
+    left: 10px;
+}
+
+.buttons .fa-undo-alt {
+    right: 10px;
+}
+.buttons .fa-pause-circle {
+    font-size: 40px;
+    padding: 0 10px;
+}
+
+.slidebar {
+    display: flex;
+    align-items: center;
+    color: rgba(250, 250, 250, 0.5);
+}
+
+.slider {
+    margin: 0 10px;
+}
+
+.add_song i {
+    font-size: 25px;
+    color: rgba(250, 250, 250, 0.5);
+}
+
+.current_song img {
+    border: 1px solid rgba(250, 250, 250, 0.5);
 }

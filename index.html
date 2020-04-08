@@ -6,6 +6,7 @@
         <title>Spotify Web Player</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/d2d2dbcb83.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <aside id="sidebar_menu">
@@ -91,7 +92,28 @@
             </section>
         </main>
         <footer>
+            <span class="current_song">
+                <img src="https://picsum.photos/40" alt="Current Song">
+            </span>
 
+            <span class="song_interaction">
+                <div class="buttons">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-backward"></i>
+                    <i class="far fa-pause-circle"></i>
+                    <i class="fas fa-forward"></i>
+                    <i class="fas fa-undo-alt"></i>
+                </div>
+                <div class="slidebar">
+                    <p>2:12</p>
+                    <input type="range" min="1" max="100" value="25" class="slider" id="myRange">
+                    <p>4:20</p>
+                </div>
+            </span>
+
+            <span class="add_song">
+                <i class="far fa-heart"></i>
+            </span>
         </footer>
     </body>
 </html>
