@@ -12,6 +12,7 @@ body {
 .hidden_xs {
     display: none;
 }
+
 #sidebar_menu {
     height: calc(100vh - 80px);
     background-color: rgba(0, 0, 0, 0.75);
@@ -19,6 +20,7 @@ body {
     float: left;
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 
 #sidebar_menu .profile_row_wrapper {
@@ -185,6 +187,9 @@ footer {
         display: block;
     }
 
+    .hidden_sm {
+        display: none;
+    }
     #sidebar_menu {
         height: calc(100vh - 130px);
         width: 250px;
@@ -215,6 +220,7 @@ footer {
 
     .links {
         padding-left: 20px;
+        padding-bottom: 30px;
     }
 
     .links h3 {
@@ -281,5 +287,12 @@ footer {
 
     footer {
         height: 130px;
+    }
+
+    footer .song_interaction, .slidebar, .add_song{
+        transform: scale(1.5);
+    }
+    .current_song img {
+        border: 3px solid rgba(250, 250, 250, 0.5);
     }
 }
