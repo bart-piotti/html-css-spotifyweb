@@ -14,8 +14,9 @@ ul {
 }
 
 body {
-    background-color #20bf55;
-    background-image: linear-gradient(315deg, #01baef 0%, #20bf55 74%);
+    background: #00bf8f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
