@@ -281,11 +281,11 @@ footer i:hover {
     }
 
     #spotify_logo {
-        font-size: 80px;
+        font-size: 70px;
     }
 
     .menu_row i {
-        font-size: 35px;
+        font-size: 27px;
         text-align: left;
         float: left;
     }
@@ -293,7 +293,7 @@ footer i:hover {
     .menu_row span p, .profile_row span p {
         float: left;
         color: lightgrey;
-        font-size: 20px;
+        font-size: 15px;
         padding: 5px;
         padding-left: 10px;
     }
@@ -308,7 +308,7 @@ footer i:hover {
     }
 
     .links h3 {
-        font-size: 20px;
+        font-size: 16px;
         color: lightgrey;
         padding-top: 15px;
         padding-bottom: 10px;
@@ -317,7 +317,7 @@ footer i:hover {
     }
 
     .links p {
-        font-size: 19px;
+        font-size: 15px;
         color: lightgrey;
         padding-bottom: 5px;
     }
@@ -334,11 +334,10 @@ footer i:hover {
     #download_icon {
         font-size: 30px;
         text-align: left;
-        padding-left: 5px;
     }
 
     #profile_icon {
-        font-size: 45px;
+        font-size: 35px;
         text-align: left;
     }
 
@@ -351,7 +350,7 @@ footer i:hover {
     }
 
     main header i {
-        font-size: 80px;
+        font-size: 60px;
     }
 
     .category h2 {
@@ -404,7 +403,7 @@ footer i:hover {
     }
 
     #sidebar_menu {
-        height: 100vh;
+        height: calc(100vh - 130px);
     }
 
     main header {
